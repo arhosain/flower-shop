@@ -142,7 +142,6 @@ gap: 50px;
 
 .image-section-2{
   position: relative;
-  background-color: #E95A08;
   display: inline-block;
 }
 .f-lover-img-1{
@@ -170,6 +169,90 @@ gap: 50px;
   margin-bottom: 25px;
 }
 
+/* deals section  */
+.latest-deals{
+  max-width: 1140px;
+  margin: 0 auto;
+  
+}
+.deal-title{
+  font-size:50px ;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 100px;
+}
+.deal-description{
+  margin-top: -20px;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.deals{
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  
+}
+.deal-ana-bloom{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  
+  
+}
+.deal-img{
+   filter: brightness(60%);
+   border-radius: 20px;
+   
+}
+.bloom-d{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 10%;
+  right: 75%;
+}
+.ana-d{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 62%;
+  right: 76%;
+}
+.zabo-d{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 35%;
+  right: 17%;
+}
+.bloom-d-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:1.3rem ;
+}
+.bloom-d-description{
+  margin-top: -17px;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.ana-d-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:1.3rem ;
+}
+.ana-d-description{
+  margin-top: -17px;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.zabo-d-title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size:2.5rem ;
+}
+.zabo-d-description{
+  margin-top: -17px;
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
 
 @media screen and (max-width:576px) {
 
